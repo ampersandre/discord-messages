@@ -1,9 +1,6 @@
 const moment = require('moment');
 const Papa = require('papaparse');
 const data = require('./discord-data.json');
-// import * as moment from 'moment';
-// import Papa from 'papaparse';
-// import data from './discord-data.json';
 
 const users = data.meta.users;
 const usersByIndex = {};
